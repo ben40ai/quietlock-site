@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiet Lock — Prayer &amp; Faith Focus</title>
+  <meta name="description" content="Quiet Lock is a focus app for prayer and deep work. Privacy policy, terms, and support.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: { DEFAULT: '#FAF7F2', deep: '#F3EDE4' },
+            teal: { brand: '#0F766E', hover: '#0D9488', muted: '#115E59' },
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-cream text-slate-800 antialiased">
+  <header class="border-b border-teal-900/10 bg-cream/90 backdrop-blur-sm sticky top-0 z-10">
+    <div class="mx-auto flex max-w-3xl items-center justify-between px-5 py-4">
+      <a href="index.html" class="group flex items-center gap-2.5 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-teal-brand focus-visible:ring-offset-2 focus-visible:ring-offset-cream">
+        <img src="logo.png" alt="" width="36" height="36" decoding="async" class="h-9 w-9 rounded-xl shadow-sm ring-1 ring-teal-900/10 transition ring-offset-2 ring-offset-cream group-hover:ring-teal-brand/25 sm:h-10 sm:w-10" />
+        <span class="text-sm font-semibold tracking-tight text-teal-brand">Quiet Lock</span>
+      </a>
+      <nav class="flex gap-5 text-sm font-medium text-teal-muted">
+        <a class="hover:text-teal-brand transition-colors" href="privacy/index.html">Privacy</a>
+        <a class="hover:text-teal-brand transition-colors" href="terms/index.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-3xl px-5 py-14 sm:py-20">
+    <section class="text-center sm:text-left">
+      <div class="flex flex-col items-center gap-6 sm:flex-row sm:items-start sm:gap-8 sm:text-left">
+        <img src="logo.png" alt="" width="112" height="112" decoding="async" class="h-24 w-24 shrink-0 rounded-[1.35rem] shadow-lg shadow-teal-900/10 ring-1 ring-teal-900/10 sm:h-28 sm:w-28" />
+        <div class="min-w-0 flex-1">
+          <p class="text-sm font-medium uppercase tracking-widest text-teal-brand/90">Prayer &amp; faith focus</p>
+          <h1 class="mt-3 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+            Quiet Lock
+          </h1>
+          <p class="mt-2 text-lg text-slate-600 sm:text-xl">
+            A calm focus tool for <span class="text-teal-brand font-medium">prayer</span> and <span class="text-teal-brand font-medium">deep work</span>.
+          </p>
+          <p class="mx-auto mt-6 max-w-xl text-pretty text-slate-600 sm:mx-0">
+            Step away from noise, set intentional pauses, and use optional Screen Time–based limits on your terms—core experience stays on your device.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-14 rounded-2xl border border-teal-900/10 bg-cream-deep/80 p-6 sm:p-8 shadow-sm shadow-teal-900/5">
+      <h2 class="text-lg font-semibold text-slate-900">Privacy at a glance</h2>
+      <p class="mt-3 text-pretty text-slate-600 leading-relaxed">
+        Quiet Lock is built <strong class="text-slate-800">offline-first</strong>: your prayer flow and journaling stay on your device. We don’t require an account for core use. When you use Apple’s Screen Time / Family Controls APIs, selections are handled under Apple’s privacy model—we work with the system’s opaque tokens to enforce what <em>you</em> choose, not to read your browsing history.
+      </p>
+      <p class="mt-4">
+        <a class="inline-flex items-center gap-1 font-medium text-teal-brand underline decoration-teal-brand/30 underline-offset-4 hover:decoration-teal-brand" href="privacy/index.html">
+          Read the full Privacy Policy
+          <span aria-hidden="true">→</span>
+        </a>
+      </p>
+    </section>
+
+    <section class="mt-12 flex flex-col gap-4 sm:flex-row sm:gap-6">
+      <a class="flex flex-1 items-center justify-center rounded-xl border border-teal-900/10 bg-white px-5 py-4 text-center text-sm font-semibold text-teal-brand shadow-sm transition hover:border-teal-brand/30 hover:bg-cream" href="privacy/index.html">
+        Privacy Policy
+      </a>
+      <a class="flex flex-1 items-center justify-center rounded-xl border border-teal-900/10 bg-white px-5 py-4 text-center text-sm font-semibold text-teal-brand shadow-sm transition hover:border-teal-brand/30 hover:bg-cream" href="terms/index.html">
+        Terms of Service
+      </a>
+    </section>
+
+    <section class="mt-16 border-t border-teal-900/10 pt-12">
+      <h2 class="text-lg font-semibold text-slate-900">Support</h2>
+      <p class="mt-3 text-pretty text-slate-600">
+        Questions, feedback, or help with Quiet Lock? Email us—we read every message.
+      </p>
+      <p class="mt-5">
+        <a class="inline-flex items-center rounded-full bg-teal-brand px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-teal-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-brand focus-visible:ring-offset-2 focus-visible:ring-offset-cream" href="mailto:support@quietlock.app">
+          support@quietlock.app
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="border-t border-teal-900/10 py-8 text-center text-sm text-slate-500">
+    <p>© Quiet Lock</p>
+  </footer>
+</body>
+</html>
