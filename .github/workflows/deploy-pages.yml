@@ -1,6 +1,5 @@
 # Static site root = repo root. Enable Pages: Settings → Pages → GitHub Actions.
-# Optional: add quietlock.app under Custom domain and point DNS (CNAME file in repo root).
-# Default URL: https://<owner>.github.io/quietlock-site/
+# Live URL: https://ben40ai.github.io/quietlock-site/
 
 name: Deploy to GitHub Pages
 
